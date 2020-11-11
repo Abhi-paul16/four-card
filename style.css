@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.head {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.head h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: lighter;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.head span {
+    display: block;
+    font-weight: 800;
+    color: hsl(234, 12%, 34%);
+    font-size: 29px;
+}
+
+.head p {
+    color: rgb(172, 172, 172);
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.cards {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 5px 25px -6px hsl(229, 6%, 66%);
+    border-top: 3px solid;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+.card img {
+    text-align: right;
+    position: relative;
+    left: 260px;
+    top: 80px;
+}
+
+.card p {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card h2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.c1 {
+    border-color: hsl(180, 62%, 55%);
+
+}
+
+.c2 {
+    border-color: hsl(0, 78%, 62%);
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.c3 {
+    border-color: hsl(34, 97%, 64%);
+    margin: auto;
+
+}
+
+.c4 {
+    border-color: hsl(212, 86%, 64%);
+}
+@media only screen and (max-width: 1024px){
+.card img{
+    position: relative;
+    left: 220px;
+    top: 80px;
+}
+.card{
+    width: 300px;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    .head{
+        width: 100%;
+    }
+    .head h2{
+        font-size: 25px;
+    }
+    .head span{
+        font-size: 20px;
+    }
+    .head p{
+        width: 80%;
+        margin:  10px auto;
+        font-size: 15px;
+    }
+    .cards{
+        display: block;
+    }
+    .c1{
+        margin: auto;
+        margin-bottom:20px;
+    }
+    .c4{
+        margin: auto;
+        margin-top:20px;
+    }
+}
